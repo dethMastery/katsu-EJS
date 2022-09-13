@@ -1,0 +1,78 @@
+[
+  {
+    "tab": [
+      {
+        "home": "/",
+        "blog": "https://blog.suphakit.net",
+        "artist": "https://katsuragi.detzz.in.th",
+        "commission": "/commission",
+        "donation": "/donation",
+        "about": "/about"
+      }
+    ],
+    "home": [
+      {
+        "about": [
+          {
+            "desp": "I'm Suphakit P. I'm a Front-End Developer (with a little of Back-End Skill) & Music Composer. This website is made to showed my old time projects that I have ever made. ;3",
+            "bDay": "1024117200000"
+          }
+        ],
+        "educationalProfile": [
+          {
+            "year": "2021 - Now",
+            "class": "Computer Engineering",
+            "deg": "Bachelor's degree",
+            "school": "Phayao University"
+          },
+          {
+            "year": "2019 - 2021",
+            "class": "Sci-Math",
+            "deg": "Grade 11 - 12",
+            "school": "Darasamutr Sriracha School"
+          },
+          {
+            "year": "2018 - 2019",
+            "class": "Sci-Math",
+            "deg": "Grade 10",
+            "school": "Piboonbumpen Demonstration School"
+          },
+          {
+            "year": "2014 - 2018",
+            "class": "Sci-Math",
+            "deg": "Grade 7 - 9",
+            "school": "Sriracha School"
+          },
+          {
+            "year": "2005 - 2014",
+            "class": "",
+            "deg": "Grade 1 - 6",
+            "school": "Darasamutr Sriracha School"
+          }
+        ],
+        "skills": [
+          {
+            "name": "HTML",
+            "exp": "1451606400000"
+          },
+          {
+            "name": "CSS",
+            "exp": "1451606400000"
+          },
+          {
+            "name": "PHP",
+            "exp": "1514764800000"
+          },
+          {
+            "name": "Javascript",
+            "exp": "1483228800000"
+          },
+          {
+            "name": "Typescript",
+            "exp": "1609459200000"
+          }
+        ]
+      }
+    ]
+  }
+]
