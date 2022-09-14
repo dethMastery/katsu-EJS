@@ -12,38 +12,47 @@
     ],
     "home": [
       {
+        "name": "Suphakit",
+        "surName": "Pinyoworapot",
+        "profilePic": "https://avatars.githubusercontent.com/u/25049577?v=4",
         "about": [
           {
-            "desp": "I'm Suphakit P. I'm a Front-End Developer (with a little of Back-End Skill) & Music Composer. This website is made to showed my old time projects that I have ever made. ;3",
+            "header": "Hello, world!",
+            "desp": "I'm Suphakit P. I'm a Music composer with full-stack web developing skill (might be more front-end part). So this is my website that used to showing my pasts, my skills and some of my works (might be some of my commission). Please enjoy your trip here. ;3",
             "bDay": "1024117200000"
           }
         ],
         "educationalProfile": [
           {
+            "id": 0,
             "year": "2021 - Now",
             "class": "Computer Engineering",
             "deg": "Bachelor's degree",
             "school": "Phayao University"
           },
           {
+            "id": 1,
             "year": "2019 - 2021",
             "class": "Sci-Math",
             "deg": "Grade 11 - 12",
             "school": "Darasamutr Sriracha School"
           },
           {
+            "id": 2,
             "year": "2018 - 2019",
             "class": "Sci-Math",
             "deg": "Grade 10",
             "school": "Piboonbumpen Demonstration School"
           },
           {
+            "id": 3,
             "year": "2014 - 2018",
             "class": "Sci-Math",
             "deg": "Grade 7 - 9",
             "school": "Sriracha School"
           },
           {
+            "id": 4,
             "year": "2005 - 2014",
             "class": "",
             "deg": "Grade 1 - 6",
@@ -52,26 +61,129 @@
         ],
         "skills": [
           {
+            "id": 0,
             "name": "HTML",
             "exp": "1451606400000"
           },
           {
+            "id": 1,
             "name": "CSS",
             "exp": "1451606400000"
           },
           {
+            "id": 2,
             "name": "PHP",
             "exp": "1514764800000"
           },
           {
+            "id": 3,
             "name": "Javascript",
             "exp": "1483228800000"
           },
           {
+            "id": 4,
             "name": "Typescript",
             "exp": "1609459200000"
           }
+        ],
+        "featuredRepository": [
+          {
+            "id": 0,
+            "name": "tydon",
+            "link": "https://github.com/KIZUNEParty/tyDon",
+            "usedLang": "nodeJS",
+            "desp": "Just a laziest CLI script that make for get and convert human date to UNIX Timestamp (epochtime)"
+          },
+          {
+            "id": 1,
+            "name": "Darken-World",
+            "link": "https://github.com/dethMastery/Darken-World",
+            "usedLang": "JSON",
+            "desp": "This is my first VSCode Theme Extension that i used in nowaday :D"
+          },
+          {
+            "id": 2,
+            "name": "My generated vibe on static HTML",
+            "link": "https://github.com/dethMastery/my-generated-vibe-on-static-html",
+            "usedLang": "Javascript",
+            "desp": "This is one of my laziest thing i ever do in my coding life ;3"
+          },
+          {
+            "id": 3,
+            "name": "anime.frame",
+            "link": "https://github.com/KIZUNEParty/anime.frame",
+            "usedLang": "nodeJS (express.js)",
+            "desp": "This is one of my repository that i mostly used in nowaday because it's very cute :D (but i still forget to update my docs)"
+          }
+        ],
+        "joinedEvent": [
+          {
+            "id": 0,
+            "year": 2022,
+            "name": "TESA Top Gun Rally #16",
+            "img": ""
+          }
+        ],
+        "certificated": [
+          {
+            "id": 0,
+            "year": 2022,
+            "name": "TESA Top Gun Rally #16",
+            "img": ""
+          }
+        ],
+        "contact": [
+          {
+            "id": 0,
+            "name": "tel",
+            "data": "(+66) 94 426 4826",
+            "link": "telto:+66944264826"
+          },
+          {
+            "id": 1,
+            "name": "E-Mail",
+            "data": "me@detzz.in.th",
+            "link": "mailto:me@detzz.in.th"
+          },
+          {
+            "id": 2,
+            "name": "Facebook",
+            "data": "ศุภกฤต ภิญโญวรพจน์ (George Katsuragi Deterk)",
+            "link": "https://fb.com/detzz.in.th"
+          },
+          {
+            "id": 3,
+            "name": "Twitter",
+            "data": "George K. Deterk",
+            "link": "https://twitter.com/georgeKdeterk"
+          },
+          {
+            "id": 4,
+            "name": "Github",
+            "data": "Suphakit P. (dethMastery)",
+            "link": "https://twitter.com/dethMastery"
+          }
         ]
+      }
+    ],
+    "donation": [
+      {
+        "id": 0,
+        "name": "Promptpay",
+        "target": "0944264826",
+        "repName": "MR.SUPHAKIT PINYOWORAPOT"
+      },
+      {
+        "id": 1,
+        "name": "KasikornBank",
+        "target": "0668699308",
+        "repName": "MR.SUPHAKIT PINYOWORAPOT"
+      },
+      {
+        "id": 2,
+        "name": "TrueWallet",
+        "target": "0944264826",
+        "repName": "MR.SUPHAKIT PINYOWORAPOT"
       }
     ]
   }
