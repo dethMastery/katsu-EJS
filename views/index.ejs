@@ -18,7 +18,7 @@
       </div>
       <div class="socialLink">
         <% for (let i=2; i<5; i++) { %>
-          <a href="<%= home.contact[i].link %>" class="socialLink <%= home.contact[i].sName %> ">
+          <a href="<%= home.contact[i].link %>" class="socialLink <%= home.contact[i].sName %> " target="_blank">
             <b>
               <%= home.contact[i].sName %></b></a>
         <% } %> 
@@ -106,7 +106,7 @@
   <ul>
     <% home.contact.forEach(contact => { %>
       <li class="<%= contact.sName %>">
-        <%= contact.name %>: <a href="<%= contact.link %>"><%= contact.fName %></a>
+        <%= contact.name %>: <a href="<%= contact.link %>" target="_blank"><%= contact.fName %></a>
       </li>
     <% }); %> 
   </ul>
