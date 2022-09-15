@@ -26,17 +26,17 @@
         "educationalProfile": [
           {
             "id": 0,
-            "year": "2021 - Now",
-            "class": "Computer Engineering",
-            "deg": "Bachelor's degree",
-            "school": "Phayao University"
+            "year": "2005 - 2014",
+            "class": "",
+            "deg": "Grade 1 - 6",
+            "school": "Darasamutr Sriracha School"
           },
           {
             "id": 1,
-            "year": "2019 - 2021",
+            "year": "2014 - 2018",
             "class": "Sci-Math",
-            "deg": "Grade 11 - 12",
-            "school": "Darasamutr Sriracha School"
+            "deg": "Grade 7 - 9",
+            "school": "Sriracha School"
           },
           {
             "id": 2,
@@ -47,17 +47,17 @@
           },
           {
             "id": 3,
-            "year": "2014 - 2018",
+            "year": "2019 - 2021",
             "class": "Sci-Math",
-            "deg": "Grade 7 - 9",
-            "school": "Sriracha School"
+            "deg": "Grade 11 - 12",
+            "school": "Darasamutr Sriracha School"
           },
           {
             "id": 4,
-            "year": "2005 - 2014",
-            "class": "",
-            "deg": "Grade 1 - 6",
-            "school": "Darasamutr Sriracha School"
+            "year": "2021 - Now",
+            "class": "Computer Engineering",
+            "deg": "Bachelor's degree",
+            "school": "Phayao University"
           }
         ],
         "skills": [
@@ -149,18 +149,21 @@
           {
             "id": 2,
             "name": "Facebook",
+            "sName": "FB",
             "data": "ศุภกฤต ภิญโญวรพจน์ (George Katsuragi Deterk)",
             "link": "https://fb.com/detzz.in.th"
           },
           {
             "id": 3,
             "name": "Twitter",
+            "sName": "TW",
             "data": "George K. Deterk",
             "link": "https://twitter.com/georgeKdeterk"
           },
           {
             "id": 4,
             "name": "Github",
+            "sName": "GH",
             "data": "Suphakit P. (dethMastery)",
             "link": "https://twitter.com/dethMastery"
           }
