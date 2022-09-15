@@ -5,7 +5,7 @@ let axios = require('axios')
 module.exports = async function (app, cors, config) {
 
   function home() {
-    let ax = axios.get('https://frame.kitzu.me/rdm/48643')
+    let ax = axios.get('https://frame.kitzu.me/rdm/49520')
     let axCall = ax.then((rsp => rsp.data.resp))
 
     return axCall
