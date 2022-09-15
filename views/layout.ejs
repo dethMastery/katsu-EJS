@@ -8,10 +8,49 @@
       <%- include('./partials/header') %> 
 
       <main>
-        <% body %> 
+        <%- body %> 
       </main>
 
       <%- include('./partials/footer') %> 
     </div>
+
+    <script>
+      let wLog = window.location.href
+      let subBot = wLog.split('/')
+
+      let fixedFooter = `
+        footer {
+          position: fixed;
+          bottom: 0;
+        }
+      `
+
+      if (subBot[3] == 'home') {
+        // Do nothing
+      } else if (subBot[3] == 'about') {
+        let a = document.querySelector('head')
+        let r = document.createElement('style')
+
+        r.innerHTML = fixedFooter
+
+        a.appendChild(r)
+      } else if (subBot[3] == 'donation') {
+        let a = document.querySelector('head')
+        let r = document.createElement('style')
+
+        r.innerHTML = fixedFooter
+
+        a.appendChild(r)
+      } else if (subBot[3] == 'commission') {
+        // Do nothing
+      } else if (subBot[3] != '') {
+        let a = document.querySelector('head')
+        let r = document.createElement('style')
+
+        r.innerHTML = fixedFooter
+
+        a.appendChild(r)
+      }
+    </script>
   </body>
 </html>

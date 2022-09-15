@@ -8,6 +8,7 @@ let expLayout = require('express-ejs-layouts')
 let config = require('./scripts/config')
 let port = require('./scripts/port')
 let page = require('./scripts/page')
+const errorPage = require('./scripts/errorPage')
 
 let app = exp()
 
@@ -26,6 +27,8 @@ app.use(expLayout)
 app.set('view engine', 'ejs')
 app.set('layout', ('layout'))
 
+// Page Setting up
 page(app, cors, config)
+errorPage(app, cors, config)
 
 app.listen(config.port, port(config.port))
