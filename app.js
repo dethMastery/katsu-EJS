@@ -6,6 +6,7 @@ let stylus = require('express-stylus')
 let expLayout = require('express-ejs-layouts')
 
 let config = require('./scripts/config')
+let uConfig = require('./scripts/userConfig')
 let port = require('./scripts/port')
 let page = require('./scripts/page')
 const errorPage = require('./scripts/errorPage')
@@ -28,7 +29,7 @@ app.set('view engine', 'ejs')
 app.set('layout', ('layout'))
 
 // Page Setting up
-page(app, cors, config)
-errorPage(app, cors, config)
+page(app, cors, uConfig)
+errorPage(app, cors, uConfig)
 
 app.listen(config.port, port(config.port))
