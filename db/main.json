@@ -185,6 +185,66 @@
         "target": "0944264826",
         "repName": "MR.SUPHAKIT PINYOWORAPOT"
       }
+    ],
+    "commission": [
+      {
+        "caution": [
+          "ขอทำความเข้าใจไว้ ณ ตรงนี้เลยว่า การรับคอมมิสชั่นตรงนี้เป็นเหมือนส่วนหนึ่งของการฝึกของผมเอง ฉะนั้น งานที่ได้นั้นอาจจะไม่ได้ดีเท่าที่ท่านหวังไว้ และ Code ข้างในอาจจจะค่อนข้างเละเทะในระดับนึง แต่ว่ามั่นใจได้เลยว่าใช้ได้แน่นอนครับ",
+          "ป.ล. เวลาของงานจะเริ่มนับตั้งแต่วันที่เริ่มนับในวันที่ถึงในคิวนะครับ"
+        ],
+        "FrontEnd" : [
+          {
+            "id": 0,
+            "title": "สร้าง / แก้ไขหน้า Front-end",
+            "detailed": "พร้อมรับทำหน้าตา Front-End ต่างๆ ราคาสามารถพูดกันได้ ถ้ามีโครงมาให้ก่อนแล้วสามารถมาพูดคุยเรื่องของราคาได้ครับ [ภาษาที่รับ `html + css + js ทั่วไป`, `` ] <ul><li>เพิ่มเติม<ul><li>ทางผมจะไม่มี Hosting ให้นะครับ ฉะนั้นให้หามาเอง</li><li>หากว่า Request มากขึ้นราคาก็จะสูงขึ้นตามนะครับ</li><li>และหากว่า Request นั้นเยอะมากเกินไปจนผมไม่สามารถรับไหว ขออนุญาติไม่รับนะครับ</li></ul></li></ul>",
+            "duration": "2 วัน - 1 สัปดาห์ (อาจจะช้า หรือ เร็วกว่านั้น)",
+            "examplePic": "https://cdn.jsdelivr.net/gh/dont-tattled-on-me/dethz-source@main/Commission/FA/0.png",
+            "exampleLink": "https://suphakit.net",
+            "exampleText": "ตัวอย่างงาน - หน้าเว็บ Portfolio",
+            "price": "เริ่มต้น 1000 บาท (มัดจำก่อน 20%)"
+          },
+          {
+            "id": 1,
+            "title": "ทำระบบ Canvas",
+            "detailed": "ทำระบบสร้าง Canvas รูปแบบต่างๆ ในการนำไปใช้ในโพสต์ต่างๆ เช่น รูปโพสต์ใน Facebook หรือ ในการทำ NFT แบบจำนวนมาก <ul><li>เพิ่มเติม<ul><li>ทางผมจะไม่มี Hosting ให้นะครับ ฉะนั้นให้หามาเอง</li><li>หากว่า Request มากขึ้นราคาก็จะสูงขึ้นตามนะครับ</li><li>และหากว่า Request นั้นเยอะมากเกินไปจนผมไม่สามารถรับไหว ขออนุญาติไม่รับนะครับ</li></ul></li></ul>",
+            "duration": "1-2 สัปดาห์ (อาจจะช้า หรือ เร็วกว่านั้น)",
+            "examplePic": "https://cdn.jsdelivr.net/gh/dont-tattled-on-me/dethz-source@main/Commission/FA/1.png",
+            "exampleLink": "https://mgen.000127001.xyz",
+            "exampleText": "ตัวอย่างงาน - หน้าสำหรับสร้าง Canvas",
+            "price": "เริ่มต้น 1500 บาท (มัดจำก่อน 20%)"
+          }
+        ],
+        "MusicPart": [
+          {
+            "id": 0,
+            "title": "Remastered Beat เพลง",
+            "detailed": "รับทำ Beat เพลงใหม่สำหรับในการใช้ในการร้อง Cover ต่างๆ <ul><li>เพิ่มเติม<ul><li>หากว่ารายละเอียดในเพลงนั้นเยอะมากเกินไปจนผมไม่สามารถรับไหว ขออนุญาติไม่รับนะครับ</li></ul></li></ul>",
+            "duration": "3 วัน - 2 สัปดาห์ (อาจจะช้า หรือ เร็วกว่านั้น)",
+            "examplePic": "https://cdn.jsdelivr.net/gh/dont-tattled-on-me/dethz-source@main/Commission/Music/0.png",
+            "exampleLink": "https://youtu.be/J_Pd1W8Mypc",
+            "exampleText": "ตัวอย่างงาน - SAD (XXXTentacion Beat Remaking)",
+            "price": "เริ่มต้น 400 บาท (มัดจำก่อน 20%)"
+          }
+        ],
+        "VideoPart": [
+          {
+            "id": 0,
+            "title": "รับตัดต่องานวิดีโอต่างๆ",
+            "detailed": "รับตัดต่องานวิดีโอทั่วไป อนิเมชั่น หรือส่วนของเสียงต่างๆ <ul><li>เพิ่มเติม<ul><li>หากว่ารายละเอียดในเพลงนั้นเยอะมากเกินไปจนผมไม่สามารถรับไหว ขออนุญาติไม่รับนะครับ</li></ul></li></ul>",
+            "duration": "3-4 วัน (อาจจะช้า หรือ เร็วกว่านั้น)",
+            "exampleLink": "",
+            "exampleText": "ตัวอย่างงาน",
+            "price": "เริ่มต้น 300 บาท (มัดจำก่อน 20%)"
+          }
+        ]
+      }
+    ],
+    "aboutPage": [
+      "this is a website that i making for showing all my works that ever join and ever made if you love it and want to contact me",
+      "<a href='./#contact'>click here</a>",
+      "if you love to donate me just",
+      "<a href='./donation'>click here</a>",
+      "thanks for your attention :D"
     ]
   }
 ]
