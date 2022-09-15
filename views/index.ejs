@@ -1,0 +1,113 @@
+<% let home = JSON.parse(api)[0] %>
+
+<div class="index-header1" id="homecard">
+  <div class="overlay">
+
+    <div class="card">
+      <div class="profile">
+        <img src="<%= home.profilePic %> " alt="profilePic">
+      </div>
+
+      <div class="name">
+        <h2>
+          <%= home.name + ' ' + home.surName %>
+        </h2>
+        <p class="subDesp">
+          <%= home.subDesp %> 
+        </p>
+      </div>
+      <div class="socialLink">
+        <% for (let i=2; i<5; i++) { %>
+          <a href="<%= home.contact[i].link %>" class="socialLink <%= home.contact[i].sName %> ">
+            <b>
+              <%= home.contact[i].sName %></b></a>
+        <% } %> 
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="index-header2 index-content" id="about">
+  <h1>about();</h1>
+  <h4><%= home.about[0].header %></h4>
+  <p>
+    <%= home.about[0].desp %> 
+    <br>
+    <ul>
+      <% let bDate = (home.about[0].bDay / 1000) * 1000 %>
+      <% let bLocal = new Date(bDate) %>
+
+      <li>
+        <i>birthDate(); => <%= bLocal.getDate() + ' / ' + (bLocal.getMonth()+1) + ' / ' + bLocal.getFullYear() %> </i>
+      </li>
+      <li>
+        <i>age(); => ~ <%= new Date().getFullYear() - bLocal.getFullYear() %></i>
+      </li>
+    </ul>
+  </p>
+</div>
+
+<%- include('./partials/smallParallax') %> 
+
+<div class="index-header3 index-content" id="eduProfile">
+  <h1>educationalProfile();</h1>
+  <ul>
+    <% home.educationalProfile.reverse().forEach(edu => { %>
+      <li>
+        ( <%= edu.deg %> )
+        
+        <% if (edu.class != undefined) { %>
+         <%= edu.class %> 
+        <% } else { %>
+          
+        <% } %>
+
+        <span> | </span>
+
+        <b>
+          <%= edu.school %>
+        </b>
+
+        [ <%= edu.year %> ] 
+      </li>
+    <% }); %> 
+  </ul>
+</div>
+
+<%- include('./partials/bigParallax') %> 
+
+<div class="index-header4 index-content" id="skills">
+  <h1>skills();</h1>
+</div>
+
+<%- include('./partials/smallParallax') %> 
+
+<div class="index-header5 index-content" id="featuredRepo">
+  <h1>featuredRepository();</h1>
+</div>
+
+<%- include('./partials/bigParallax') %> 
+
+<div class="index-header6 index-content" id="joinedEvent">
+  <h1>joinedEvent();</h1>
+</div>
+
+<%- include('./partials/smallParallax') %> 
+
+<div class="index-header7 index-content" id="certificate">
+  <h1>certificate();</h1>
+</div>
+
+<%- include('./partials/bigParallax') %> 
+
+<div class="index-header8 index-content" id="contact">
+  <h1>contact();</h1>
+  <ul>
+    <% home.contact.forEach(contact => { %>
+      <li class="<%= contact.sName %>">
+        <%= contact.name %>: <a href="<%= contact.link %>"><%= contact.fName %></a>
+      </li>
+    <% }); %> 
+  </ul>
+</div>

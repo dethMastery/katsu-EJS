@@ -137,34 +137,36 @@
           {
             "id": 0,
             "name": "tel",
-            "data": "(+66) 94 426 4826",
+            "sName": "TL",
+            "fName": "(+66) 94 426 4826",
             "link": "telto:+66944264826"
           },
           {
             "id": 1,
             "name": "E-Mail",
-            "data": "me@detzz.in.th",
+            "sName": "EM",
+            "fName": "me@detzz.in.th",
             "link": "mailto:me@detzz.in.th"
           },
           {
             "id": 2,
             "name": "Facebook",
             "sName": "FB",
-            "data": "ศุภกฤต ภิญโญวรพจน์ (George Katsuragi Deterk)",
+            "fName": "ศุภกฤต ภิญโญวรพจน์ (George Katsuragi Deterk)",
             "link": "https://fb.com/detzz.in.th"
           },
           {
             "id": 3,
             "name": "Twitter",
             "sName": "TW",
-            "data": "George K. Deterk",
+            "fName": "George K. Deterk",
             "link": "https://twitter.com/georgeKdeterk"
           },
           {
             "id": 4,
             "name": "Github",
             "sName": "GH",
-            "data": "Suphakit P. (dethMastery)",
+            "fName": "Suphakit P. (dethMastery)",
             "link": "https://twitter.com/dethMastery"
           }
         ]

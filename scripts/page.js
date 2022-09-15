@@ -1,11 +1,24 @@
 let mainDB = require('../db/main.json')
+let homeAPI = JSON.stringify(mainDB[0].home)
+let axios = require('axios')
 
-module.exports = function (app, cors, config) {
+module.exports = async function (app, cors, config) {
+
+  function home() {
+    let ax = axios.get('https://frame.kitzu.me/rdm/48643')
+    let axCall = ax.then((rsp => rsp.data.resp))
+
+    return axCall
+  }
 
   // Homepage
   app.get('/', (req, res) => {
-    res.render('index', {
-      site: config
+    home().then(data => {
+      res.render('index', {
+        site: config,
+        api: homeAPI,
+        pBG: data
+      })
     })
   })
 
