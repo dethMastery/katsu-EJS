@@ -2,12 +2,12 @@
   {
     "tab": [
       {
-        "home": "/",
-        "blog": "https://blog.suphakit.net",
+        "home": "./",
+        "blog": "https://blog.suphakit.net/",
         "artist": "https://katsuragi.detzz.in.th",
-        "commission": "/commission",
-        "donation": "/donation",
-        "about": "/about"
+        "commission": "./commission",
+        "donation": "./donation",
+        "about": "./about"
       }
     ],
     "home": [

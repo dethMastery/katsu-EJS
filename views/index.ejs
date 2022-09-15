@@ -1,4 +1,4 @@
-<% let home = JSON.parse(api)[0] %>
+<% let home = JSON.parse(api).home[0] %>
 
 <div class="index-header1" id="homecard">
   <div class="overlay">
@@ -55,16 +55,16 @@
   <ul>
     <% home.educationalProfile.reverse().forEach(edu => { %>
       <li>
-        ( <%= edu.deg %> )
-        
-        <% if (edu.class != undefined) { %>
-         <%= edu.class %> 
+        <%= edu.deg %>
+
+        <% if (edu.class != '') { %>
+          <span> | </span>
+          <%= edu.class %> 
         <% } else { %>
           
         <% } %>
 
         <span> | </span>
-
         <b>
           <%= edu.school %>
         </b>

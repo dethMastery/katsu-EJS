@@ -1,0 +1,39 @@
+<% let tabs = JSON.parse(api).tab[0] %>
+
+<ul class="nav">
+  <li class="logo">
+    <a href="<%= tabs.home %>" class="home">
+      <!-- Suphakit.net -->.
+    </a>
+  </li>
+
+  <li class="right about">
+    <a href="<%= tabs.about %>">
+      about();
+    </a>
+  </li>
+
+  <li class="right donate">
+    <a href="<%= tabs.donation %>">
+      donation();
+    </a>
+  </li>
+
+  <li class="right commis">
+    <a href="<%= tabs.commission %>">
+      commission();
+    </a>
+  </li>
+
+  <li class="right artist">
+    <a href="<%= tabs.artist %>">
+      artist();
+    </a>
+  </li>
+
+  <li class="right blog">
+    <a href="<%= tabs.blog %>">
+      blog();
+    </a>
+  </li>
+</ul>

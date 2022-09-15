@@ -5,7 +5,7 @@
   </head>
   <body>
     <div id="app">
-      <%- include('./partials/header') %> 
+      <%- include('./partials/header') %>
 
       <main>
         <%- body %> 
@@ -19,6 +19,17 @@
       let subBot = wLog.split('/')
 
       let fixedFooter = `
+        footer {
+          position: fixed;
+          bottom: 0;
+        }
+      `
+
+      let errorPage = `
+        .nav {
+          display: none !important;
+        }
+
         footer {
           position: fixed;
           bottom: 0;
@@ -47,7 +58,7 @@
         let a = document.querySelector('head')
         let r = document.createElement('style')
 
-        r.innerHTML = fixedFooter
+        r.innerHTML = errorPage
 
         a.appendChild(r)
       }

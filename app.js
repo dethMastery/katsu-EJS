@@ -20,6 +20,7 @@ app.use(stylus({
   import: ['nib']
 }))
 app.use(exp.static(path.join(__dirname + '/static/css')))
+app.use(exp.static(path.join(__dirname + '/static')))
 
 // EJS Layout
 app.use(expLayout)

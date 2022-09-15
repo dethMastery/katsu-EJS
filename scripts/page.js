@@ -1,5 +1,5 @@
 let mainDB = require('../db/main.json')
-let homeAPI = JSON.stringify(mainDB[0].home)
+let homeAPI = JSON.stringify(mainDB[0])
 let axios = require('axios')
 
 module.exports = async function (app, cors, config) {
@@ -20,18 +20,6 @@ module.exports = async function (app, cors, config) {
         pBG: data
       })
     })
-  })
-
-  // Blog Page
-  app.get('/blog', (req, res) => {
-    let link = mainDB[0].tab[0].blog
-    res.redirect(link)
-  })
-
-  // Artist Page
-  app.get('/artist', (req, res) => {
-    let link = mainDB[0].tab[0].artist
-    res.redirect(link)
   })
 
   // API Page
