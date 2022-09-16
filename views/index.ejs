@@ -1,5 +1,6 @@
 <% let home = JSON.parse(api).home[0] %>
 
+<!-- Big Head -->
 <div class="index-header1" id="homecard">
   <div class="overlay">
 
@@ -28,6 +29,7 @@
   </div>
 </div>
 
+<!-- About -->
 <div class="index-header2 index-content" id="about">
   <h1>about();</h1>
   <h4><%= home.about[0].header %></h4>
@@ -50,6 +52,7 @@
 
 <%- include('./partials/smallParallax') %> 
 
+<!-- educational Profile -->
 <div class="index-header3 index-content" id="eduProfile">
   <h1>educationalProfile();</h1>
   <ul>
@@ -77,30 +80,35 @@
 
 <%- include('./partials/bigParallax') %> 
 
+<!-- Skills -->
 <div class="index-header4 index-content" id="skills">
   <h1>skills();</h1>
 </div>
 
 <%- include('./partials/smallParallax') %> 
 
+<!-- Featured Repository -->
 <div class="index-header5 index-content" id="featuredRepo">
   <h1>featuredRepository();</h1>
 </div>
 
 <%- include('./partials/bigParallax') %> 
 
+<!-- Joined Event -->
 <div class="index-header6 index-content" id="joinedEvent">
   <h1>joinedEvent();</h1>
 </div>
 
 <%- include('./partials/smallParallax') %> 
 
+<!-- Certificate -->
 <div class="index-header7 index-content" id="certificate">
   <h1>certificate();</h1>
 </div>
 
 <%- include('./partials/bigParallax') %> 
 
+<!-- Contact -->
 <div class="index-header8 index-content" id="contact">
   <h1>contact();</h1>
   <ul>
