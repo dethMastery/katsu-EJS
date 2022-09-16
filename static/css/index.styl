@@ -76,6 +76,32 @@ html, body
           background-color: black
           color: text
 
+.index-header4
+  .container
+    display: flex
+    gap: 1rem
+    flex-direction: row
+    flex-wrap: wrap
+    @media screen and (max-width: 900px)
+      flex-direction: columns
+      justify-content: center
+      text-align: left
+    .card
+      width: 40%
+      flex-grow: 2
+      flex-shrink: 0
+      background: w-bg
+      color: w-text
+      padding: 1rem
+      border-radius: 1rem
+      @media screen and (max-width: 900px)
+        width: 80%
+        margin-left: 1rem
+        br
+          display: none
+        span.exp
+          margin-left: 1rem
+
 .index-content
   max-width: 80ch
   height: auto

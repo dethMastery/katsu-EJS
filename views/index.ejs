@@ -83,6 +83,29 @@
 <!-- Skills -->
 <div class="index-header4 index-content" id="skills">
   <h1>skills();</h1>
+  <div class="container">
+    <% home.skills.forEach(skill => { %>
+      <div class="card">
+        <span>
+          <b>
+            <%= skill.name %> 
+          </b>
+        </span>
+        <br>
+        <span class="exp">
+          <% let eDate = (skill.exp / 1000) * 1000 %>
+          <% let eLocal = new Date(eDate) %>
+          <% let exp = new Date().getFullYear() - eLocal.getFullYear() %> 
+          experience(); => <%= exp %>
+          <% if (exp > 1) { %>
+            yrs.
+          <% } else { %>
+            yr.
+          <% } %>
+        </span>
+      </div>
+    <% }); %> 
+  </div>
 </div>
 
 <%- include('./partials/smallParallax') %> 
