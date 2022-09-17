@@ -113,6 +113,24 @@
 <!-- Featured Repository -->
 <div class="index-header5 index-content" id="featuredRepo">
   <h1>featuredRepository();</h1>
+  <div class="container">
+    <% home.featuredRepository.forEach(fRepo => { %>
+      <a href="<%= fRepo.link %> " class="card" target="_blank">
+        <span>
+          <b>
+            <%= fRepo.name %> 
+          </b>
+        </span>
+        <br>
+        <span class="desp">
+          <%= fRepo.desp %> 
+        </span>
+        <p class="lang">
+          <u>Used language</u> : <span><%= fRepo.usedLang %></span>
+        </p>
+      </a>
+    <% }); %> 
+  </div>
 </div>
 
 <%- include('./partials/bigParallax') %> 
