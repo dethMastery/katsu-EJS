@@ -138,13 +138,37 @@
 <!-- Joined Event -->
 <div class="index-header6 index-content" id="joinedEvent">
   <h1>joinedEvent();</h1>
+  <div class="container">
+    <% home.joinedEvent.forEach(jEvent => { %>
+      <div class="card">
+        <div class="img-header">
+          <img src="<%= jEvent.img %> " alt="<%= jEvent.name %> ">
+        </div>
+        <p>
+          <b><%= jEvent.year %> | <%= jEvent.name %></b>
+        </p> 
+      </div>
+    <% }); %> 
+  </div>
 </div>
 
 <%- include('./partials/smallParallax') %> 
 
 <!-- Certificate -->
-<div class="index-header7 index-content" id="certificate">
+<div class="index-header6 index-content" id="certificate">
   <h1>certificate();</h1>
+  <div class="container">
+    <% home.certificated.forEach(cert => { %>
+      <div class="card">
+        <div class="img-header">
+          <img src="<%= cert.img %> " alt="<%= cert.name %> ">
+        </div>
+        <p>
+          <b><%= cert.year %> | <%= cert.name %></b>
+        </p> 
+      </div>
+    <% }); %> 
+  </div>
 </div>
 
 <%- include('./partials/bigParallax') %> 
