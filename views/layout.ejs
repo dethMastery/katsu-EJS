@@ -54,6 +54,8 @@
         a.appendChild(r)
       } else if (subBot[3] == 'commission') {
         // Do nothing
+      } else if (subBot[3] == '#about' || subBot[3] == '#eduProfile' || subBot[3] == '#skills' || subBot[3] == '#featuredRepo' || subBot[3] == '#joinedEvent' || subBot[3] == '#certificate' || subBot[3] == '#contact') {
+        // Do nothing
       } else if (subBot[3] != '') {
         let a = document.querySelector('head')
         let r = document.createElement('style')

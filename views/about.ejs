@@ -1,34 +1,36 @@
 <% let about = JSON.parse(api).aboutPage %>
 
 <div id="aboutPage">
-  <div class="card">
-    <h1>
-      About
-    </h1>
-    <p>
-      <span>
-        <%= about[0] %> 
-      </span>
-      <br>
-
-      <span>
-        <%= about[1] %> 
-      </span>
-      <a href="<%= about[2] %>">
-        <%= about[3] %> 
-      </a>
-      <br> 
-      
-      <span>
-        <%= about[4] %> 
-      </span>
-      <a href="<%= about[5] %>">
-        <%= about[6] %> 
-      </a>
-    </p>
-
-    <h3>
-      <%= about[7] %> 
-    </h3>
+  <div class="overlay">
+    <div class="card">
+      <h1>
+        About
+      </h1>
+      <p>
+        <span>
+          <%= about[0] %> 
+        </span>
+        <br>
+  
+        <span>
+          <%= about[1] %> 
+        </span>
+        <a href="<%= about[2] %>">
+          <%= about[3] %> 
+        </a>
+        <br> 
+        
+        <span>
+          <%= about[4] %> 
+        </span>
+        <a href="<%= about[5] %>">
+          <%= about[6] %> 
+        </a>
+      </p>
+  
+      <h3>
+        <%= about[7] %> 
+      </h3>
+    </div>
   </div>
 </div>
