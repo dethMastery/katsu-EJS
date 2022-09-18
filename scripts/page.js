@@ -24,11 +24,17 @@ module.exports = async function (app, cors, config) {
 
   // About
   app.get('/about', (req,res) => {
-    home().then(data => {
-      res.render('about', {
-        site: config,
-        api: homeAPI
-      })
+    res.render('about', {
+      site: config,
+      api: homeAPI
+    })
+  })
+
+  // Donation
+  app.get('/donation' || '/Donation', (req, res) => {
+    res.render('donation', {
+      site: config,
+      api: homeAPI
     })
   })
 

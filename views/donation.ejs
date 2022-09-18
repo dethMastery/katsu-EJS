@@ -1,0 +1,24 @@
+<% let donation = JSON.parse(api).donation %>
+
+<div id="dPageR">
+  <div class="overlay">
+    <div class="card">
+      <h1>
+        Donation
+      </h1>
+      <% donation.forEach(donate => { %>
+        <p>
+          <b>
+            <%= donate.name %> :  
+          </b>
+          <%= donate.target %> 
+
+          <br>
+          <u>
+            <%= donate.repName %> 
+          </u>
+        </p>
+      <% }); %> 
+    </div>
+  </div>
+</div>
