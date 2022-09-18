@@ -36,8 +36,9 @@
         }
       `
 
-      if (subBot[3] == 'home') {
+      if (subBot[3] == 'home' || subBot[3] == 'commission' || subBot[3] == 'Commission') {
         // Do nothing
+
       } else if (subBot[3] == 'about') {
         let a = document.querySelector('head')
         let r = document.createElement('style')
@@ -45,7 +46,7 @@
         r.innerHTML = fixedFooter
 
         a.appendChild(r)
-      } else if (subBot[3] == 'donation') {
+      } else if (subBot[3] == 'donation' || subBot[3] == 'Donation') {
         let a = document.querySelector('head')
         let r = document.createElement('style')
 
