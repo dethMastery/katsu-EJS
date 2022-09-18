@@ -22,6 +22,16 @@ module.exports = async function (app, cors, config) {
     })
   })
 
+  // About
+  app.get('/about', (req,res) => {
+    home().then(data => {
+      res.render('about', {
+        site: config,
+        api: homeAPI
+      })
+    })
+  })
+
   // API Page
   app.get('/api', cors(config.freeOrigin), (req, res) => {
     res.json(mainDB)

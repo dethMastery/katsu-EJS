@@ -246,10 +246,13 @@
       }
     ],
     "aboutPage": [
-      "this is a website that i making for showing all my works that ever join and ever made if you love it and want to contact me",
-      "<a href='./#contact'>click here</a>",
-      "if you love to donate me just",
-      "<a href='./donation'>click here</a>",
+      "this is a website that i making for showing all my works that ever join and ever made.",
+      "if you love it and want to contact me",
+      "./#contact",
+      "click here",
+      "and if you love to donate me just",
+      "./donation",
+      "click here",
       "thanks for your attention :D"
     ]
   }
