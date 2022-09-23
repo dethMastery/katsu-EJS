@@ -36,10 +36,10 @@
         }
       `
 
-      if (subBot[3] == 'home' || subBot[3] == 'commission' || subBot[3] == 'Commission') {
+      if (subBot[3] == 'home') {
         // Do nothing
 
-      } else if (subBot[3] == 'about') {
+      } else if (subBot[3] == 'about' || subBot[3] == 'commission' || subBot[3] == 'Commission') {
         let a = document.querySelector('head')
         let r = document.createElement('style')
 
@@ -53,8 +53,6 @@
         r.innerHTML = fixedFooter
 
         a.appendChild(r)
-      } else if (subBot[3] == 'commission') {
-        // Do nothing
       } else if (subBot[3] == '#about' || subBot[3] == '#eduProfile' || subBot[3] == '#skills' || subBot[3] == '#featuredRepo' || subBot[3] == '#joinedEvent' || subBot[3] == '#certificate' || subBot[3] == '#contact') {
         // Do nothing
       } else if (subBot[3] != '') {

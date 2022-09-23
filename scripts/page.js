@@ -38,6 +38,14 @@ module.exports = async function (app, cors, config) {
     })
   })
 
+  // Commission
+  app.get('/commission' || '/Commission', (req, res) => {
+    res.render('commission', {
+      site: config,
+      api: homeAPI
+    })
+  })
+
   // API Page
   app.get('/api', cors(config.freeOrigin), (req, res) => {
     res.json(mainDB)

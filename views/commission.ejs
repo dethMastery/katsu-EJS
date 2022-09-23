@@ -1,0 +1,159 @@
+<% let commission = JSON.parse(api).commission[0] %>
+
+<div id="commisPage">
+  <div class="overlay">
+    <h1>
+      Commission
+    </h1>
+
+    <div class="card">
+      <div class="caution-box">
+        <span class="caution-badge"><b>คำเตือน</b></span>
+        <span class="caution-text">
+          <%= commission.caution[0] %> 
+          <br>
+        </span>
+        <h3>
+          <%= commission.caution[1] %> 
+        </h3>
+      </div>
+
+      <div class="front-end-box">
+        <h2>
+          Front-End Works
+        </h2>
+        <div class="container">
+          <% commission.FrontEnd.forEach(fe => { %>
+            <div class="miniCard">
+              <div class="img">
+                <img src="<%= fe.examplePic %> " alt="<%= fe.title %> ">
+              </div>
+              <div class="content">
+                <h3><u><%= fe.title %></u></h3>
+                <p>
+                  <u>รายละเอียด</u> : 
+                  <%= fe.detailed[0] %>
+                </p>
+                <p>
+                  <u>เพิ่มเติม</u> :
+                  <ul>
+                    <li>
+                      <%= fe.detailed[1] %>
+                    </li>
+                    <li>
+                      <%= fe.detailed[2] %> 
+                    </li>
+                    <li>
+                      <%= fe.detailed[3] %> 
+                    </li>
+                  </ul>
+                </p>
+                <p>
+                  ระยะเวลา : <%= fe.duration %> 
+                </p>
+                <p>
+                  ราคา : <%= fe.price %> 
+                </p>
+              </div>
+            </div>
+          <% }); %>
+        </div>
+      </div>
+
+      <div class="music-box">
+        <h2>
+          Music Works
+        </h2>
+        <div class="container">
+          <% commission.MusicPart.forEach(fe => { %>
+            <div class="miniCard">
+              <div class="img">
+                <img src="<%= fe.examplePic %> " alt="<%= fe.title %> ">
+              </div>
+              <div class="content">
+                <h3><u><%= fe.title %></u></h3>
+                <p>
+                  <u>รายละเอียด</u> : 
+                  <%= fe.detailed[0] %>
+                </p>
+                <p>
+                  <u>เพิ่มเติม</u> :
+                  <ul>
+                    <li>
+                      <%= fe.detailed[1] %>
+                    </li>
+                  </ul>
+                </p>
+                <p>
+                  ระยะเวลา : <%= fe.duration %> 
+                </p>
+                <p>
+                  ราคา : <%= fe.price %> 
+                </p>
+              </div>
+            </div>
+          <% }); %>
+        </div>
+      </div>
+
+      <div class="video-box">
+        <h2>
+          Video Works
+        </h2>
+        <div class="container">
+          <% commission.VideoPart.forEach(fe => { %>
+            <div class="miniCard">
+              <div class="content">
+                <h3><u><%= fe.title %></u></h3>
+                <p>
+                  <u>รายละเอียด</u> : 
+                  <%= fe.detailed[0] %>
+                </p>
+                <p>
+                  <u>เพิ่มเติม</u> :
+                  <ul>
+                    <li>
+                      <%= fe.detailed[1] %>
+                    </li>
+                  </ul>
+                </p>
+                <p>
+                  ระยะเวลา : <%= fe.duration %> 
+                </p>
+                <p>
+                  ราคา : <%= fe.price %> 
+                </p>
+              </div>
+            </div>
+          <% }); %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+    opacity: .3;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: whitesmoke; 
+    opacity: .3;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(208, 208, 208); 
+    opacity: .3;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(173, 173, 173); 
+    opacity: .3;
+  }
+</style>
